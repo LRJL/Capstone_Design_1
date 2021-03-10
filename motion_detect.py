@@ -38,7 +38,7 @@ while cap.isOpened():
                     1, (0, 255, 0), 3)  #put text on frame1
 
 
-    #cv2.drawContours(frame1, contours, -1, (255, 0, 0), 2) #for 
+    #cv2.drawContours(frame1, contours, -1, (255, 0, 0), 2) #for runs without further implementation
 
     cv2.imshow("feed", frame1)  #show results
     
